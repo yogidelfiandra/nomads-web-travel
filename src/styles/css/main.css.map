@@ -1,8 +1,12 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,OAAO,CAAC,oJAAI;AGEZ,AAAA,UAAU,CAAC;EACT,gBAAgB,EFFL,OAAO;EEGlB,KAAK,EFDI,IAAI;CEOd;;AARD,AAIE,UAJQ,AAIP,MAAM,CAAC;EACN,gBAAgB,EFLD,OAAO;EEMtB,KAAK,EFLE,IAAI;CEMZ;;AHHH,AAAA,IAAI,CAAC;EACH,gBAAgB,ECJP,IAAI;EDKb,WAAW,EAAE,uBAAuB;EACpC,KAAK,ECRM,OAAO;CDSnB;;AAED,AACE,aADW,CACX,GAAG,CAAC;EACF,UAAU,EAAE,IAAI;CACjB;;AAGH,AAEI,WAFO,CACT,SAAS,CACP,SAAS,CAAC;EACR,KAAK,ECpBE,OAAO;CD0Bf;;AATL,AAKM,WALK,CACT,SAAS,CACP,SAAS,AAGN,OAAO,CAAC;EACP,WAAW,EEnBT,GAAG;EFoBL,KAAK,ECxBA,OAAO;CDyBb",
     "sources": [
-        "../sass/main.scss"
+        "../scss/main.scss",
+        "../scss/_colors.scss",
+        "../scss/_typo.scss",
+        "../scss/_buttons.scss",
+        "../scss/_typo.scss"
     ],
     "names": [],
     "file": "main.css"

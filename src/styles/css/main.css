@@ -1,1 +1,30 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+.btn-login {
+  background-color: #071c4d;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #20335f;
+  color: #fff;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+  color: #071c4d;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #071c4d;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  font-weight: 700;
+  color: #071c4d;
+}
+/*# sourceMappingURL=main.css.map */

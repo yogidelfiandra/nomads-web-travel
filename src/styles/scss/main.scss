@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+@import './colors';
+@import './typo';
+@import './buttons';
+
+body {
+  background-color: map-get($colors, light);
+  font-family: 'Assistant', sans-serif;
+  color: map-get($colors, primary);
+}
+
+.navbar-brand {
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      color: map-get($colors, primary);
+
+      &.active {
+        font-weight: map-get($font-assistant, bold);
+        color: map-get($colors, primary);
+      }
+    }
+  }
+}
