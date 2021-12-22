@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: grey;
   font-family: 'Assistant', sans-serif;
   color: #071c4d;
 }
@@ -58,5 +58,24 @@ header h1 {
 
 header p {
   font-size: 22px;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+}
+
+.section-stats .stats-detail h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.section-stats .stats-detail p {
+  font-size: 20px;
+  font-weight: 300;
 }
 /*# sourceMappingURL=main.css.map */
