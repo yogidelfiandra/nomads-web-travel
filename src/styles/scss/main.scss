@@ -5,7 +5,7 @@
 @import './buttons';
 
 body {
-  background-color: grey;
+  background-color: map-get($colors, light);
   font-family: 'Assistant', sans-serif;
   color: map-get($colors, primary);
 }
@@ -116,5 +116,28 @@ header {
         font-weight: map-get($font-assistant, semibold);
       }
     }
+  }
+}
+
+.section-networks {
+  background-color: map-get($colors, light);
+  margin-top: -190px;
+  padding: 273px 0 100px;
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: map-get($font-playfair, bold);
+    margin-bottom: 12px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: map-get($font-assistant, regular);
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
   }
 }

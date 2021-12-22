@@ -25,7 +25,7 @@
 }
 
 body {
-  background-color: grey;
+  background-color: #fff;
   font-family: 'Assistant', sans-serif;
   color: #071c4d;
 }
@@ -127,5 +127,28 @@ header p {
 .section-popular-content .section-popular-travel .card-travel .travel-location {
   font-size: 26px;
   font-weight: 600;
+}
+
+.section-networks {
+  background-color: #fff;
+  margin-top: -190px;
+  padding: 273px 0 100px;
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.section-networks p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.section-networks img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
