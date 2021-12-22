@@ -21,3 +21,15 @@
     color: map-get($colors, light);
   }
 }
+
+.btn-need-help {
+  font-size: 20px;
+  font-weight: map-get($font-assistant, light);
+  background-color: map-get($colors, bg-lighter);
+  color: map-get($colors, bg-light);
+
+  &:hover {
+    background-color: map-get($colors, bg-lighter-hover);
+    color: map-get($colors, bg-light);
+  }
+}
