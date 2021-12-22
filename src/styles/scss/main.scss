@@ -20,6 +20,7 @@ body {
   .nav-item {
     .nav-link {
       color: map-get($colors, light);
+      font-size: 20px;
 
       &.active {
         font-weight: map-get($font-assistant, bold);
@@ -61,11 +62,59 @@ header {
     h2 {
       font-size: 30px;
       font-weight: map-get($font-assistant, semibold);
+      margin: 0;
     }
 
     p {
       font-size: 20px;
       font-weight: map-get($font-assistant, light);
+    }
+  }
+}
+
+.section-popular {
+  margin-top: -50px;
+  margin-bottom: -210px;
+  background-color: map-get($colors, bg-blue);
+
+  .section-popular-heading {
+    padding: 150px 0 276px;
+    color: map-get($colors, light);
+
+    h2 {
+      font-size: 40px;
+      font-weight: map-get($font-playfair, bold);
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 18px;
+      font-weight: map-get($font-assistant, regular);
+      margin: 0;
+    }
+  }
+}
+
+.section-popular-content {
+  .section-popular-travel {
+    .card-travel {
+      min-height: 380px;
+      color: map-get($colors, light);
+      background-size: cover;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 20px;
+
+      .travel-country {
+        font-size: 18px;
+        font-weight: map-get($font-assistant, regular);
+      }
+
+      .travel-location {
+        font-size: 26px;
+        font-weight: map-get($font-assistant, semibold);
+      }
     }
   }
 }

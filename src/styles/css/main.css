@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap");
 .btn-login {
+  font-size: 20px;
   background-color: #071c4d;
   color: #fff;
 }
@@ -9,12 +10,16 @@
   color: #fff;
 }
 
-.btn-get-started {
+.btn-get-started,
+.btn-travel-details {
+  font-size: 20px;
+  font-weight: 600;
   background-color: #ff9e53;
   color: #fff;
 }
 
-.btn-get-started:hover {
+.btn-get-started:hover,
+.btn-travel-details:hover {
   background-color: #e68e4b;
   color: #fff;
 }
@@ -31,6 +36,7 @@ body {
 
 .navbar-nav .nav-item .nav-link {
   color: #fff;
+  font-size: 20px;
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -72,10 +78,54 @@ header p {
 .section-stats .stats-detail h2 {
   font-size: 30px;
   font-weight: 600;
+  margin: 0;
 }
 
 .section-stats .stats-detail p {
   font-size: 20px;
   font-weight: 300;
+}
+
+.section-popular {
+  margin-top: -50px;
+  margin-bottom: -210px;
+  background-color: #051334;
+}
+
+.section-popular .section-popular-heading {
+  padding: 150px 0 276px;
+  color: #fff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 12px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  color: #fff;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-country {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-location {
+  font-size: 26px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,5 @@
-@import './typo';
-
 .btn-login {
+  font-size: 20px;
   background-color: map-get($colors, primary);
   color: map-get($colors, light);
 
@@ -10,7 +9,10 @@
   }
 }
 
-.btn-get-started {
+.btn-get-started,
+.btn-travel-details {
+  font-size: 20px;
+  font-weight: map-get($font-assistant, semibold);
   background-color: map-get($colors, secondary);
   color: map-get($colors, light);
 
