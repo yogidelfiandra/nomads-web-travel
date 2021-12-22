@@ -19,12 +19,34 @@ body {
 .navbar-nav {
   .nav-item {
     .nav-link {
-      color: map-get($colors, primary);
+      color: map-get($colors, light);
 
       &.active {
         font-weight: map-get($font-assistant, bold);
-        color: map-get($colors, primary);
+        color: map-get($colors, light);
       }
     }
+  }
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -66px;
+  background-image: url('../../public/images/header.jpg');
+  background-size: cover;
+
+  h1,
+  p {
+    color: map-get($colors, light);
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: map-get($font-playfair, bold);
+  }
+
+  p {
+    font-size: 22px;
   }
 }

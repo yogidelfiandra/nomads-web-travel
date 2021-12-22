@@ -9,6 +9,16 @@
   color: #fff;
 }
 
+.btn-get-started {
+  background-color: #ff9e53;
+  color: #fff;
+}
+
+.btn-get-started:hover {
+  background-color: #e68e4b;
+  color: #fff;
+}
+
 body {
   background-color: #fff;
   font-family: 'Assistant', sans-serif;
@@ -20,11 +30,33 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #071c4d;
+  color: #fff;
 }
 
 .navbar-nav .nav-item .nav-link.active {
   font-weight: 700;
-  color: #071c4d;
+  color: #fff;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -66px;
+  background-image: url("../../public/images/header.jpg");
+  background-size: cover;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header h1 {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 22px;
 }
 /*# sourceMappingURL=main.css.map */
