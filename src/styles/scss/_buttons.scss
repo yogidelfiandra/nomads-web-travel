@@ -33,3 +33,18 @@
     color: map-get($colors, bg-light);
   }
 }
+
+.btn-subscribe {
+  position: absolute;
+  font-size: 18px;
+  right: 8px;
+  font-weight: map-get($font-assistant, semibold);
+  background-color: map-get($colors, primary);
+  color: map-get($colors, light);
+  border: none;
+
+  &:hover {
+    color: map-get($colors, light);
+    background-color: map-get($colors, primary-hover);
+  }
+}
