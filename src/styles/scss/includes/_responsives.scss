@@ -1,0 +1,51 @@
+@media (min-width: 992px) {
+  .section-newsletter-content {
+    form {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-fixed-top {
+    background-color: #fff;
+
+    .navbar-brand {
+      color: $blue-500;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        color: $blue-500 !important;
+
+        &:hover {
+          color: $blue-400;
+        }
+
+        &.active {
+          color: $blue-500;
+        }
+      }
+    }
+  }
+
+  .section-newsletter-content {
+    form {
+      width: 90%;
+    }
+  }
+}

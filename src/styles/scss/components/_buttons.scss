@@ -1,0 +1,49 @@
+.btn-login {
+  font-size: 18px;
+  background-color: $blue-500;
+  color: $white;
+
+  &:hover {
+    background-color: $blue-400;
+    color: $white;
+  }
+}
+
+.btn-get-started,
+.btn-travel-details {
+  font-size: 20px;
+  font-weight: map-get($font-assistant, semibold);
+  background-color: $orange-400;
+  color: $white;
+
+  &:hover {
+    background-color: $orange-500;
+    color: $white;
+  }
+}
+
+.btn-need-help {
+  font-size: 20px;
+  font-weight: map-get($font-assistant, light);
+  background-color: $gray-100;
+  color: $gray-500;
+
+  &:hover {
+    color: $gray-500;
+  }
+}
+
+.btn-subscribe {
+  position: absolute;
+  font-size: 18px;
+  right: 8px;
+  font-weight: map-get($font-assistant, semibold);
+  background-color: $blue-500;
+  color: $white;
+  border: none;
+
+  &:hover {
+    color: $white;
+    background-color: $blue-400;
+  }
+}

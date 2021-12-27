@@ -1,0 +1,20 @@
+.section-footer {
+  h4 {
+    font-size: 22px;
+    font-weight: map-get($font-assistant, semibold);
+    margin-bottom: 15px;
+  }
+  a {
+    text-decoration: none;
+    color: $blue-500;
+    font-size: 18px;
+    font-weight: map-get($font-assistant, regular);
+    margin-bottom: 8px;
+  }
+
+  .copyright {
+    color: $gray-300;
+    font-size: 18px;
+    font-weight: map-get($font-assistant, light);
+  }
+}

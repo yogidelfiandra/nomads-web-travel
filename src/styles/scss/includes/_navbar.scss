@@ -1,0 +1,36 @@
+.sticky {
+  background-color: $white;
+
+  .navbar-brand {
+    color: $blue-500;
+
+    &:hover {
+      color: $blue-500;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $blue-500 !important;
+    }
+  }
+}
+
+.navbar-brand {
+  font-size: 35px;
+  font-weight: map-get($font-assistant, extrabold);
+  letter-spacing: -2px;
+}
+
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      color: $white;
+      font-size: 18px;
+
+      &.active {
+        font-weight: map-get($font-assistant, bold);
+      }
+    }
+  }
+}
