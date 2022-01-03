@@ -1,5 +1,5 @@
 // components
-@import 'components/custom';
+@import './custom';
 
 @import 'components/typography';
 @import 'components/buttons';
@@ -12,3 +12,4 @@
 
 // pages
 @import 'pages/home';
+@import 'pages/details';

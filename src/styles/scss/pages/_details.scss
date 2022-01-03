@@ -1,0 +1,148 @@
+.section-details-header {
+  min-height: 310px;
+  background-color: $gray-150;
+  margin-top: 78.5px;
+}
+
+.section-details-content {
+  margin-top: -240px;
+  min-height: 100vh;
+
+  .breadcrumb {
+    margin-bottom: 40px;
+  }
+
+  .breadcrumb-item {
+    a {
+      color: $blue-500;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &.active {
+      font-weight: map-get($font-assistant, bold);
+      color: $blue-500;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border-radius: 10px;
+
+    h1 {
+      margin-bottom: 3px;
+      font-size: 26px;
+      font-weight: map-get($font-assistant, semibold);
+    }
+
+    p {
+      color: $gray-350;
+      font-size: 18px;
+      font-weight: map-get($font-assistant, light);
+      text-align: justify;
+    }
+
+    h2 {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: map-get($font-assistant, semibold);
+    }
+
+    .gallery {
+      .xzoom-container {
+        display: block;
+
+        .xzoom {
+          box-shadow: none;
+          margin: 8px 0 12px 0;
+        }
+      }
+
+      .xzoom-thumbs {
+        .xzoom-gallery {
+          box-shadow: none;
+          border: none;
+          margin: 0 0 8px;
+        }
+
+        .xactive {
+          border: 4px solid #1abc9c;
+        }
+      }
+    }
+
+    .features {
+      margin-top: 30px;
+
+      .features-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+
+      .description {
+        margin-left: 12px;
+        overflow: hidden;
+        float: left;
+
+        h3 {
+          font-size: 18px;
+          font-weight: map-get($font-assistant, light);
+          margin-bottom: 0;
+        }
+
+        p {
+          font-size: 14px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .card-right {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+
+    h2 {
+      margin: 0 0 15px;
+    }
+
+    .members {
+      .member-images {
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    hr {
+      color: $gray-300;
+    }
+
+    h3 {
+      margin-bottom: 15px;
+      font-size: 20px;
+      font-weight: map-get($font-assistant, semibold);
+    }
+
+    .trip-informations {
+      font-size: 18px;
+
+      th,
+      td {
+        font-weight: map-get($font-assistant, light);
+      }
+
+      td {
+        color: $gray-350;
+      }
+    }
+  }
+
+  .join-container {
+    margin-top: -16px;
+  }
+}

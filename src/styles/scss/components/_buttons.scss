@@ -10,7 +10,8 @@
 }
 
 .btn-get-started,
-.btn-travel-details {
+.btn-travel-details,
+.btn-join-now {
   font-size: 20px;
   font-weight: map-get($font-assistant, semibold);
   background-color: $orange-400;
@@ -46,4 +47,9 @@
     color: $white;
     background-color: $blue-400;
   }
+}
+
+.btn-join-now {
+  width: 100%;
+  border-radius: 0;
 }

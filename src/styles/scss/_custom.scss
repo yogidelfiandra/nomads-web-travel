@@ -7,9 +7,11 @@ $container-max-widths: (
 
 $white: #fff;
 $gray-100: #fafafa;
+$gray-150: #e4e6eb;
 $gray-200: #f2f2f2;
 $gray-250: #f7f9ff;
 $gray-300: #c3c3c3;
+$gray-350: #b1b1b1;
 $gray-400: #ced4da;
 $gray-500: #adb5bd;
 $gray-600: #6e6e6e;
@@ -24,10 +26,15 @@ $blue-500: #071c4d;
 $orange-400: #fd9843;
 $orange-500: #f08833;
 
+$light: $white;
+
 $navbar-dark-color: rgba($blue-500, 1);
 $navbar-dark-toggler-border-color: rgba($blue-500, 0.75);
 $dropdown-font-size: 18px;
 $dropdown-border-color: rgba($white, 0.15);
 $dropdown-link-color: $blue-500;
 
-@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+$navbar-light-color: rgba($blue-500, 1);
+$navbar-light-toggler-border-color: rgba($blue-500, 0.75);
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';

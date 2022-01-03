@@ -3,11 +3,18 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  entry: path.resolve(__dirname, './src/scripts/index.js'),
+  entry: {
+    home: './src/scripts/views/pages/home.js',
+    detail: './src/scripts/views/pages/detail.js',
+  },
   output: {
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    clean: true,
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
   },
   module: {
     rules: [
@@ -26,8 +33,16 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './src/template/index.html'),
-      filename: 'index.html',
+      inject: true,
+      template: './src/template/home.html',
+      filename: 'home.html',
+      chunks: ['home'],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/template/detail.html',
+      filename: 'detail.html',
+      chunks: ['detail'],
     }),
     new CopyWebpackPlugin({
       patterns: [
