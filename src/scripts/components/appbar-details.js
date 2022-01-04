@@ -1,4 +1,4 @@
-class AppBars extends HTMLElement {
+class AppbarDetails extends HTMLElement {
   connectedCallback() {
     this.render();
   }
@@ -69,4 +69,4 @@ class AppBars extends HTMLElement {
   }
 }
 
-customElements.define('app-bars', AppBars);
+customElements.define('appbar-details', AppbarDetails);

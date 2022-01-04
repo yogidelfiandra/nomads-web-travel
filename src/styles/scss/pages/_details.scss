@@ -1,5 +1,5 @@
 .section-details-header {
-  min-height: 310px;
+  min-height: 280px;
   background-color: $gray-150;
   margin-top: 78.5px;
 }
@@ -129,10 +129,9 @@
     }
 
     .trip-informations {
-      font-size: 18px;
-
       th,
       td {
+        font-size: 18px;
         font-weight: map-get($font-assistant, light);
       }
 

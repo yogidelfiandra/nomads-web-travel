@@ -1,13 +1,14 @@
-const Checkout = {
-  async render() {
-    return `
-			<h2>Checkout Pages</h2>
-		`;
-  },
+import '../../components/breadcrumb-checkout';
+import '../../components/checkout-content';
+import '../../components/navbar-checkout';
+import '../../components/sidebar-checkout';
+import '../../index';
 
-  async afterRender() {
-    // di panggil setelah render()
-  },
-};
-
-export default Checkout;
+const nav = document.querySelector('.navbars-fixed-top');
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 20) {
+    nav.classList.add('shadow-sm');
+  } else {
+    nav.classList.remove('shadow-sm');
+  }
+});

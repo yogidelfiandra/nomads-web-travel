@@ -1,4 +1,4 @@
-class AsideBar extends HTMLElement {
+class SidebarDetails extends HTMLElement {
   connectedCallback() {
     this.render();
   }
@@ -39,4 +39,4 @@ class AsideBar extends HTMLElement {
   }
 }
 
-customElements.define('aside-bar', AsideBar);
+customElements.define('sidebar-details', SidebarDetails);

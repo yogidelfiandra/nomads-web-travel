@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     home: './src/scripts/views/pages/home.js',
     detail: './src/scripts/views/pages/detail.js',
+    checkout: './src/scripts/views/pages/checkout.js',
   },
   output: {
     filename: '[name].js',
@@ -43,6 +44,12 @@ module.exports = {
       template: './src/template/detail.html',
       filename: 'detail.html',
       chunks: ['detail'],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/template/checkout.html',
+      filename: 'checkout.html',
+      chunks: ['checkout'],
     }),
     new CopyWebpackPlugin({
       patterns: [

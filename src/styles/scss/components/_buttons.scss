@@ -1,7 +1,10 @@
-.btn-login {
+.btn-login,
+.btn-subscribe,
+.btn-add-now {
   font-size: 18px;
   background-color: $blue-500;
   color: $white;
+  border: none;
 
   &:hover {
     background-color: $blue-400;
@@ -36,17 +39,8 @@
 
 .btn-subscribe {
   position: absolute;
-  font-size: 18px;
   right: 8px;
   font-weight: map-get($font-assistant, semibold);
-  background-color: $blue-500;
-  color: $white;
-  border: none;
-
-  &:hover {
-    color: $white;
-    background-color: $blue-400;
-  }
 }
 
 .btn-join-now {

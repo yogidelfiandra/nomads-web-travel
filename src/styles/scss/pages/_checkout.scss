@@ -1,0 +1,155 @@
+.section-checkout-header {
+  min-height: 280px;
+  background-color: $gray-150;
+  margin-top: 78.5px;
+}
+
+.section-checkout-content {
+  margin-top: -240px;
+  min-height: 120vh;
+
+  .breadcrumb {
+    margin-bottom: 40px;
+  }
+
+  .breadcrumb-item {
+    a {
+      color: $blue-500;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &.active {
+      font-weight: map-get($font-assistant, bold);
+      color: $blue-500;
+    }
+  }
+
+  .card-checkout {
+    padding: 30px;
+    border-radius: 10px;
+
+    h1,
+    h2,
+    h3 {
+      font-weight: map-get($font-assistant, semibold);
+    }
+
+    h1 {
+      margin-bottom: 3px;
+      font-size: 26px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 14px;
+    }
+
+    p {
+      color: $gray-350;
+      font-size: 18px;
+      font-weight: map-get($font-assistant, light);
+      text-align: justify;
+    }
+
+    .disclaimer {
+      font-size: 14px;
+    }
+
+    .attendee {
+      thead {
+        td {
+          font-size: 18px;
+          font-weight: map-get($font-assistant, light);
+        }
+      }
+
+      tbody {
+        td {
+          font-size: 18px;
+          font-weight: map-get($font-assistant, regular);
+        }
+      }
+    }
+  }
+
+  .card-right {
+    padding: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 0;
+
+    .trip-informations {
+      th,
+      td {
+        font-size: 18px;
+      }
+
+      th {
+        font-weight: map-get($font-assistant, regular);
+      }
+
+      td {
+        font-weight: map-get($font-assistant, light);
+        color: $gray-350;
+      }
+
+      .text-total {
+        font-weight: map-get($font-assistant, bold);
+
+        .text-blue {
+          color: $blue-500;
+        }
+
+        .text-orange {
+          color: $orange-500;
+        }
+      }
+    }
+
+    .payment-instruction {
+      font-size: 14px;
+    }
+
+    .bank {
+      .bank-image {
+        height: 45px;
+        width: 45px;
+        float: left;
+      }
+
+      .description {
+        float: left;
+        margin-left: 10px;
+        overflow: hidden;
+
+        h3,
+        p {
+          font-weight: map-get($font-assistant, regular);
+          font-size: 16px;
+          color: $blue-500;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .join-container {
+    margin-top: -16px;
+  }
+
+  .button-cancel {
+    font-size: 20px;
+    font-weight: map-get($font-assistant, light);
+
+    a {
+      color: $gray-350;
+    }
+  }
+}

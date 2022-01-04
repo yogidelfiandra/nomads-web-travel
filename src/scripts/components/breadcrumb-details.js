@@ -1,4 +1,4 @@
-class Breadcrumbs extends HTMLElement {
+class BreadcrumbDetails extends HTMLElement {
   connectedCallback() {
     this.render();
   }
@@ -17,4 +17,4 @@ class Breadcrumbs extends HTMLElement {
   }
 }
 
-customElements.define('bread-crumbs', Breadcrumbs);
+customElements.define('breadcrumb-details', BreadcrumbDetails);

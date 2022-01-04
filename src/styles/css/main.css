@@ -2011,15 +2011,15 @@ progress {
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #212529;
+  --bs-table-striped-color: #071c4d;
   --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #212529;
+  --bs-table-active-color: #071c4d;
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #212529;
+  --bs-table-hover-color: #071c4d;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: #071c4d;
   vertical-align: top;
   border-color: #c3c3c3;
 }
@@ -11951,13 +11951,18 @@ fieldset:disabled .btn {
   }
 }
 
-.btn-login {
+.btn-login,
+.btn-subscribe,
+.btn-add-now {
   font-size: 18px;
   background-color: #071c4d;
   color: #fff;
+  border: none;
 }
 
-.btn-login:hover {
+.btn-login:hover,
+.btn-subscribe:hover,
+.btn-add-now:hover {
   background-color: #092b79;
   color: #fff;
 }
@@ -11991,17 +11996,8 @@ fieldset:disabled .btn {
 
 .btn-subscribe {
   position: absolute;
-  font-size: 18px;
   right: 8px;
   font-weight: 600;
-  background-color: #071c4d;
-  color: #fff;
-  border: none;
-}
-
-.btn-subscribe:hover {
-  color: #fff;
-  background-color: #092b79;
 }
 
 .btn-join-now {
@@ -12020,6 +12016,11 @@ body {
   background-color: #fff;
   font-family: 'Assistant', sans-serif;
   color: #071c4d;
+}
+
+body btn {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .sticky {
@@ -12356,7 +12357,7 @@ header p {
 }
 
 .section-details-header {
-  min-height: 310px;
+  min-height: 280px;
   background-color: #e4e6eb;
   margin-top: 78.5px;
 }
@@ -12481,12 +12482,9 @@ header p {
   font-weight: 600;
 }
 
-.section-details-content .card-right .trip-informations {
-  font-size: 18px;
-}
-
 .section-details-content .card-right .trip-informations th,
 .section-details-content .card-right .trip-informations td {
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -12496,5 +12494,155 @@ header p {
 
 .section-details-content .join-container {
   margin-top: -16px;
+}
+
+.section-checkout-header {
+  min-height: 280px;
+  background-color: #e4e6eb;
+  margin-top: 78.5px;
+}
+
+.section-checkout-content {
+  margin-top: -240px;
+  min-height: 120vh;
+}
+
+.section-checkout-content .breadcrumb {
+  margin-bottom: 40px;
+}
+
+.section-checkout-content .breadcrumb-item a {
+  color: #071c4d;
+  text-decoration: none;
+}
+
+.section-checkout-content .breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+
+.section-checkout-content .breadcrumb-item.active {
+  font-weight: 700;
+  color: #071c4d;
+}
+
+.section-checkout-content .card-checkout {
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.section-checkout-content .card-checkout h1, .section-checkout-content .card-checkout .h1,
+.section-checkout-content .card-checkout h2,
+.section-checkout-content .card-checkout .h2,
+.section-checkout-content .card-checkout h3,
+.section-checkout-content .card-checkout .h3 {
+  font-weight: 600;
+}
+
+.section-checkout-content .card-checkout h1, .section-checkout-content .card-checkout .h1 {
+  margin-bottom: 3px;
+  font-size: 26px;
+}
+
+
+.section-checkout-content .card-checkout h2,
+.section-checkout-content .card-checkout .h2 {
+  font-size: 20px;
+}
+
+
+.section-checkout-content .card-checkout h3,
+.section-checkout-content .card-checkout .h3 {
+  font-size: 14px;
+}
+
+.section-checkout-content .card-checkout p {
+  color: #b1b1b1;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.section-checkout-content .card-checkout .disclaimer {
+  font-size: 14px;
+}
+
+.section-checkout-content .card-checkout .attendee thead td {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-checkout-content .card-checkout .attendee tbody td {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-checkout-content .card-right {
+  padding: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-checkout-content .card-right .trip-informations th,
+.section-checkout-content .card-right .trip-informations td {
+  font-size: 18px;
+}
+
+.section-checkout-content .card-right .trip-informations th {
+  font-weight: 400;
+}
+
+.section-checkout-content .card-right .trip-informations td {
+  font-weight: 300;
+  color: #b1b1b1;
+}
+
+.section-checkout-content .card-right .trip-informations .text-total {
+  font-weight: 700;
+}
+
+.section-checkout-content .card-right .trip-informations .text-total .text-blue {
+  color: #071c4d;
+}
+
+.section-checkout-content .card-right .trip-informations .text-total .text-orange {
+  color: #f08833;
+}
+
+.section-checkout-content .card-right .payment-instruction {
+  font-size: 14px;
+}
+
+.section-checkout-content .card-right .bank .bank-image {
+  height: 45px;
+  width: 45px;
+  float: left;
+}
+
+.section-checkout-content .card-right .bank .description {
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.section-checkout-content .card-right .bank .description h3, .section-checkout-content .card-right .bank .description .h3,
+.section-checkout-content .card-right .bank .description p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-checkout-content .join-container {
+  margin-top: -16px;
+}
+
+.section-checkout-content .button-cancel {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.section-checkout-content .button-cancel a {
+  color: #b1b1b1;
 }
 /*# sourceMappingURL=main.css.map */

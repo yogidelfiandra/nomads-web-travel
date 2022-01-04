@@ -1,10 +1,10 @@
 import $ from '../../../../node_modules/jquery/src/jquery';
 import '../../../../node_modules/xzoom/dist/xzoom.css';
 import '../../../../node_modules/xzoom/dist/xzoom.min';
-import '../../components/app-bars';
-import '../../components/aside-bar';
-import '../../components/breadcrumbs';
+import '../../components/appbar-details';
+import '../../components/breadcrumb-details';
 import '../../components/details-content';
+import '../../components/sidebar-details';
 import '../../index';
 
 const nav = document.querySelector('.navbars-fixed-top');

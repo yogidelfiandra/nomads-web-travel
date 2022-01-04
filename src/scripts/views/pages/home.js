@@ -1,6 +1,7 @@
 import '../../components/app-bar';
 import '../../components/popular-content';
 import '../../components/section-networks';
+import '../../components/section-newsletter';
 import '../../components/section-stats';
 import '../../components/section-testimonial';
 import '../../index';
