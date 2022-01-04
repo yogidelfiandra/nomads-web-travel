@@ -11953,7 +11953,8 @@ fieldset:disabled .btn {
 
 .btn-login,
 .btn-subscribe,
-.btn-add-now {
+.btn-add-now,
+.btn-homepage {
   font-size: 18px;
   background-color: #071c4d;
   color: #fff;
@@ -11962,7 +11963,8 @@ fieldset:disabled .btn {
 
 .btn-login:hover,
 .btn-subscribe:hover,
-.btn-add-now:hover {
+.btn-add-now:hover,
+.btn-homepage:hover {
   background-color: #092b79;
   color: #fff;
 }
@@ -12643,6 +12645,27 @@ header p {
 }
 
 .section-checkout-content .button-cancel a {
+  color: #b1b1b1;
+}
+
+.section-success {
+  height: 100vh;
+}
+
+.section-success img {
+  width: 266px;
+  height: 266px;
+  margin-bottom: 12px;
+}
+
+.section-success h1, .section-success .h1 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.section-success p {
+  font-size: 18px;
+  font-weight: 300;
   color: #b1b1b1;
 }
 /*# sourceMappingURL=main.css.map */
