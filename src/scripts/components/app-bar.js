@@ -25,7 +25,7 @@ class AppBar extends HTMLElement {
 							<a href="home.html" class="nav-link active">Home</a>
 						</li>
 						<li class="nav-item mx-md-2">
-							<a href="#" class="nav-link">Paket Travel</a>
+							<a href="#popular" class="nav-link">Paket Travel</a>
 						</li>
 						<li class="nav-item mx-md-2 dropdown">
 							<a
@@ -47,7 +47,7 @@ class AppBar extends HTMLElement {
 							</ul>
 						</li>
 						<li class="nav-item mx-md-2">
-							<a href="#" class="nav-link">Testimonial</a>
+							<a href="#testimonialHeading" class="nav-link">Testimonial</a>
 						</li>
 					</ul>
 

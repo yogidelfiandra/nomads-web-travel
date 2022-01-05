@@ -9,7 +9,7 @@ class PopularContent extends HTMLElement {
 			<div class="container">
 				<div class="row">
 					<div class="col text-center section-popular-heading">
-						<h2>Wisata Popular</h2>
+						<h2>Top Destination</h2>
 						<p>
 							Something that you never try <br />
 							before in this world
@@ -25,12 +25,12 @@ class PopularContent extends HTMLElement {
 					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div
 							class="card-travel text-center d-flex flex-column"
-							style="background-image: url('../public/images/popular-1.jpg')"
+							style="background-image: url('../public/images/popular-1.jpg')" data-aos="fade-up" data-aos-duration="1000"
 						>
-							<div class="travel-country">INDONESIA</div>
-							<div class="travel-location">DERATAN, BALI</div>
+							<div class="travel-country">TURKEY</div>
+							<div class="travel-location">CAPPADOCIA</div>
 							<div class="travel-button mt-auto">
-								<a href="detail.html" class="btn btn-travel-details px-4">
+								<a href="details.html" class="btn btn-travel-details px-4">
 									View Details
 								</a>
 							</div>
@@ -39,12 +39,12 @@ class PopularContent extends HTMLElement {
 					<div class="col-sm-6 col-md-4 col-lg-3">
 						<div
 							class="card-travel text-center d-flex flex-column"
-							style="background-image: url('../public/images/popular-2.jpg')"
+							style="background-image: url('../public/images/popular-2.jpg')" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"
 						>
-							<div class="travel-country">INDONESIA</div>
-							<div class="travel-location">BROMO, MALANG</div>
+							<div class="travel-country">MEXICO</div>
+							<div class="travel-location">TULUM</div>
 							<div class="travel-button mt-auto">
-								<a href="detail.html" class="btn btn-travel-details px-4">
+								<a href="details.html" class="btn btn-travel-details px-4">
 									View Details
 								</a>
 							</div>
@@ -54,11 +54,12 @@ class PopularContent extends HTMLElement {
 						<div
 							class="card-travel text-center d-flex flex-column"
 							style="background-image: url('../public/images/popular-3.jpg')"
+							data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
 						>
 							<div class="travel-country">INDONESIA</div>
 							<div class="travel-location">NUSA PENIDA</div>
 							<div class="travel-button mt-auto">
-								<a href="detail.html" class="btn btn-travel-details px-4">
+								<a href="details.html" class="btn btn-travel-details px-4">
 									View Details
 								</a>
 							</div>
@@ -68,11 +69,12 @@ class PopularContent extends HTMLElement {
 						<div
 							class="card-travel text-center d-flex flex-column"
 							style="background-image: url('../public/images/popular-4.jpg')"
+							data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900"
 						>
-							<div class="travel-country">MIDDLE EAST</div>
-							<div class="travel-location">DUBAI</div>
+							<div class="travel-country">PHILIPPINES</div>
+							<div class="travel-location">SIARGAO ISLAND</div>
 							<div class="travel-button mt-auto">
-								<a href="detail.html" class="btn btn-travel-details px-4">
+								<a href="details.html" class="btn btn-travel-details px-4">
 									View Details
 								</a>
 							</div>

@@ -19,7 +19,7 @@ class SidebarDetails extends HTMLElement {
 			<table class="trip-informations">
 				<tr>
 					<th width="50%">Date of Departure</th>
-					<td width="50%" class="text-end">22 Aug, 2021</td>
+					<td width="50%" class="text-end">02 Feb, 2022</td>
 				</tr>
 				<tr>
 					<th width="50%">Duration</th>

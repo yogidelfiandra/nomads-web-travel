@@ -1,9 +1,10 @@
-import $ from '../../../../node_modules/jquery/src/jquery';
+import gsap from 'gsap';
+import $ from 'jquery/src/jquery';
+import 'xzoom';
 import '../../../../node_modules/xzoom/dist/xzoom.css';
-import '../../../../node_modules/xzoom/dist/xzoom.min';
-import '../../components/appbar-details';
 import '../../components/breadcrumb-details';
 import '../../components/details-content';
+import '../../components/navbar-details';
 import '../../components/sidebar-details';
 import '../../index';
 
@@ -23,4 +24,11 @@ $(document).ready(() => {
     tint: '#333',
     Xoffset: 15,
   });
+});
+
+gsap.from('.animation', {
+  duration: 2,
+  y: 100,
+  opacity: 0,
+  ease: 'back',
 });

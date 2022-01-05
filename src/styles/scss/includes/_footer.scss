@@ -1,9 +1,12 @@
 .section-footer {
+  margin-top: 200px;
+
   h4 {
     font-size: 22px;
     font-weight: map-get($font-assistant, semibold);
     margin-bottom: 15px;
   }
+
   a {
     text-decoration: none;
     color: $blue-500;

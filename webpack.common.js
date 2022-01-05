@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
   entry: {
     home: './src/scripts/views/pages/home.js',
-    detail: './src/scripts/views/pages/detail.js',
+    details: './src/scripts/views/pages/details.js',
     checkout: './src/scripts/views/pages/checkout.js',
     success: './src/scripts/views/pages/success.js',
   },
@@ -42,9 +42,9 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       inject: true,
-      template: './src/template/detail.html',
-      filename: 'detail.html',
-      chunks: ['detail'],
+      template: './src/template/details.html',
+      filename: 'details.html',
+      chunks: ['details'],
     }),
     new HtmlWebpackPlugin({
       inject: true,

@@ -112,11 +112,11 @@ header {
 }
 
 .section-testimonial-heading {
-  min-height: 506px;
-  padding-top: 50px;
+  min-height: 706px;
   background: linear-gradient($white 0%, $gray-250 100%);
 
   h2 {
+    padding-top: 150px;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
     font-weight: map-get($font-playfair, bold);
@@ -131,12 +131,13 @@ header {
 }
 
 .section-testimonial-content {
-  margin-top: -280px;
+  margin-top: -350px;
   padding-bottom: 50px;
 
   .card-testimonial {
     padding: 40px 20px 20px;
     border-radius: 4px;
+    border: 1px solid $gray-400;
     margin-bottom: 20px;
 
     .testimonial-content {
@@ -157,6 +158,7 @@ header {
     hr {
       margin-left: -20px;
       margin-right: -20px;
+      color: $gray-350;
     }
 
     .trip-to {

@@ -5,12 +5,12 @@ class FooterBar extends HTMLElement {
 
   render() {
     this.innerHTML = `
-		<footer class="section-footer mt-5 mb-4 border-top">
+		<footer class="section-footer mb-4 border-top">
       <div class="container pt-5 pb-5">
         <div class="row justify-content-center">
           <div class="col-12">
             <div class="row">
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="col-6 col-lg-3">
                 <h4>FEATURES</h4>
                 <ul class="list-unstyled">
                   <li><a href="#">Reviews</a></li>
@@ -19,7 +19,7 @@ class FooterBar extends HTMLElement {
                   <li><a href="#">Affiliate</a></li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="col-6 col-lg-3">
                 <h4>ACCOUNT</h4>
                 <ul class="list-unstyled">
                   <li><a href="#">Refund</a></li>
@@ -27,7 +27,7 @@ class FooterBar extends HTMLElement {
                   <li><a href="#">Rewards</a></li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="col-6 col-lg-3">
                 <h4>Company</h4>
                 <ul class="list-unstyled">
                   <li><a href="#">Career</a></li>
@@ -35,7 +35,7 @@ class FooterBar extends HTMLElement {
                   <li><a href="#">Media</a></li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-6 col-lg-3">
+              <div class="col-6 col-lg-3">
                 <h4>GET CONNECT</h4>
                 <ul class="list-unstyled">
                   <li><a href="#">Riau</a></li>
@@ -51,10 +51,10 @@ class FooterBar extends HTMLElement {
       <div class="container-fluid">
         <div class="row border-top text-center justify-content-center pt-4">
           <div class="col-auto d-none d-sm-block copyright">
-            2021 Copyright Nomads • Created by kodingHack
+            2022 Copyright Nomads &nbsp; • &nbsp; Created by <a href="https://www.instagram.com/kodinghack/" target="_blank">kodingHack</a>
           </div>
 					<div class="col-auto d-block d-sm-none copyright">
-            2021 Copyright Nomads <br> Created by kodingHack
+            2022 Copyright Nomads <br> Created by <a href="https://www.instagram.com/kodinghack/" target="_blank">kodingHack</a>
           </div>
         </div>
       </div>

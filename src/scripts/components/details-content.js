@@ -5,7 +5,7 @@ class DetailsContent extends HTMLElement {
 
   render() {
     this.innerHTML = `
-		<div class="card card-details">
+		<div class="card card-details" data-aos="zoom-in-up" data-aos-duration="2000">
 			<h1>Nusa Penida</h1>
 			<p>Republic of Indonesia Raya</p>
 			<div class="gallery">
@@ -38,7 +38,7 @@ class DetailsContent extends HTMLElement {
 			</div>
 			<h2>Tentang Wisata</h2>
 			<p>
-				Nusa Penida is an island southeast of Indonesia’s island Bali
+				Nusa Penida is an island southeast of Indonesia's island Bali
 				and a district of Klungkung Regency that includes the
 				neighbouring small island of Nusa Lembongan. The Badung Strait
 				separates the island and Bali. The interior of Nusa Penida is
@@ -50,22 +50,22 @@ class DetailsContent extends HTMLElement {
 				neighbouring small island of Nusa Lembongan. The Badung Strait
 				separates the island and Bali.
 			</p>
-			<div class="features row">
-				<div class="col-md-4">
+			<div class="features row justify-content-center">
+				<div class="col-4 col-md-4">
 					<img src="../public/icons/ic_event.png" class="features-image" />
 					<div class="description">
 						<h3>Featured Event</h3>
 						<p>Tari Kecak</p>
 					</div>
 				</div>
-				<div class="col-md-4 border-start">
+				<div class="col-4 col-md-4 border-start">
 					<img src="../public/icons/ic_language.png" class="features-image" />
 					<div class="description">
 						<h3>Language</h3>
 						<p>Bahasa Indonesia</p>
 					</div>
 				</div>
-				<div class="col-md-4 border-start">
+				<div class="col-4 col-md-4 border-start">
 					<img src="../public/icons/ic_food.png" class="features-image" />
 					<div class="description">
 						<h3>Foods</h3>

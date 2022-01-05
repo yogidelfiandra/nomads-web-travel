@@ -6,7 +6,7 @@ class SectionStats extends HTMLElement {
   render() {
     this.innerHTML = `
 		<div class="container">
-			<section class="section-stats row justify-content-center" id="stats">
+			<section class="section-stats row justify-content-center" id="stats" data-aos="zoom-in" data-aos-duration="1000">
 				<div class="col-3 col-md-2 text-center stats-detail">
 					<h2>20K</h2>
 					<p>Members</p>

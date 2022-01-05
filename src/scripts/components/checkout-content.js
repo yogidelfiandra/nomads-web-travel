@@ -5,7 +5,7 @@ class CheckoutContent extends HTMLElement {
 
   render() {
     this.innerHTML = `
-		<div class="card card-checkout">
+		<div class="card card-checkout" data-aos="zoom-in-up" data-aos-duration="2000">
 			<h1>Who is Going?</h1>
 			<p class="mb-2">Trip to Ubud, Bali, Indonesia</p>
 			<div class="attendee table-responsive my-3">

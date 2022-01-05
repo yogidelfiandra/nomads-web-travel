@@ -1,4 +1,4 @@
-class AppbarDetails extends HTMLElement {
+class NavbarDetails extends HTMLElement {
   connectedCallback() {
     this.render();
   }
@@ -69,4 +69,4 @@ class AppbarDetails extends HTMLElement {
   }
 }
 
-customElements.define('appbar-details', AppbarDetails);
+customElements.define('navbar-details', NavbarDetails);

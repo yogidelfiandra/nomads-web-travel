@@ -22,7 +22,7 @@ class SectionTestimonial extends HTMLElement {
 		<section class="section-testimonial-content" id="testimonialContent">
 			<div class="container">
 				<div class="section-popular-travel row justify-content-center">
-					<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="col-sm-6 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
 						<div class="card card-testimonial text-center">
 							<div class="testimonial-content">
 								<img
@@ -38,10 +38,10 @@ class SectionTestimonial extends HTMLElement {
 								</p>
 							</div>
 							<hr />
-							<p class="trip-to mt-2">Trip to Ubud</p>
+							<p class="trip-to mt-2">Trip to Cappadocia</p>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="col-sm-6 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
 						<div class="card card-testimonial text-center">
 							<div class="testimonial-content">
 								<img
@@ -60,7 +60,7 @@ class SectionTestimonial extends HTMLElement {
 							<p class="trip-to mt-2">Trip to Nusa Penida</p>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-6 col-lg-4">
+					<div class="col-sm-6 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
 						<div class="card card-testimonial text-center">
 							<div class="testimonial-content">
 								<img
@@ -76,7 +76,7 @@ class SectionTestimonial extends HTMLElement {
 								</p>
 							</div>
 							<hr />
-							<p class="trip-to mt-2">Trip to Karimun Jawa</p>
+							<p class="trip-to mt-2">Trip to Siargao Island</p>
 						</div>
 					</div>
 				</div>
