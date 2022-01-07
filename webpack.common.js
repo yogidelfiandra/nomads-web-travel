@@ -8,9 +8,10 @@ module.exports = {
     details: './src/scripts/views/pages/details.js',
     checkout: './src/scripts/views/pages/checkout.js',
     success: './src/scripts/views/pages/success.js',
+    login: './src/scripts/views/pages/login.js',
   },
   output: {
-    filename: '[name].js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
   optimization: {
@@ -57,6 +58,12 @@ module.exports = {
       template: './src/template/success.html',
       filename: 'success.html',
       chunks: ['success'],
+    }),
+    new HtmlWebpackPlugin({
+      inject: true,
+      template: './src/template/login.html',
+      filename: 'login.html',
+      chunks: ['login'],
     }),
     new CopyWebpackPlugin({
       patterns: [

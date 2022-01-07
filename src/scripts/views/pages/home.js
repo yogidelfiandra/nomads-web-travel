@@ -21,7 +21,6 @@ gsap.from('header h1', {
   y: -50,
   opacity: 0,
   delay: 0.2,
-  ease: 'back',
 });
 
 gsap.from('header p', {
@@ -29,7 +28,6 @@ gsap.from('header p', {
   y: -50,
   opacity: 0,
   delay: 0.6,
-  ease: 'back',
 });
 
 gsap.from('header .btn-get-started', {

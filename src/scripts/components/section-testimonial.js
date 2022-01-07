@@ -9,7 +9,8 @@ class SectionTestimonial extends HTMLElement {
 			<div class="container">
 				<div class="row">
 					<div class="col text-center">
-						<h2>They Are Loving Us</h2>
+						<h2 class="d-none d-sm-block">They Are Loving Us</h2>
+						<h2 class="d-block d-sm-none">They Are <br> Loving Us</h2>
 						<p>
 							Moments were giving them <br />
 							the best experience
@@ -31,7 +32,7 @@ class SectionTestimonial extends HTMLElement {
 									alt="user"
 									class="mb-4 rounded-circle"
 								/>
-								<h3 class="mb-4">Yogi Delfiandra</h3>
+								<h3 class="mb-5">Yogi Delfiandra</h3>
 								<p class="testimonial">
 									“ It was glorious and I could not stop to say wohooo for
 									every single moment Dankeeeeee “
@@ -50,7 +51,7 @@ class SectionTestimonial extends HTMLElement {
 									alt="user"
 									class="mb-4 rounded-circle"
 								/>
-								<h3 class="mb-4">Tiana Ekstrom Bothman</h3>
+								<h3 class="mb-5">Tiana Ekstrom Bothman</h3>
 								<p class="testimonial">
 									“ The trip was amazing and I saw something beautiful in that
 									Island that makes me want to learn more “
@@ -69,7 +70,7 @@ class SectionTestimonial extends HTMLElement {
 									alt="user"
 									class="mb-4 rounded-circle"
 								/>
-								<h3 class="mb-4">Ashlynn Saris</h3>
+								<h3 class="mb-5">Ashlynn Saris</h3>
 								<p class="testimonial">
 									“ I loved it when the waves was shaking harder — I was
 									scared too “
@@ -81,11 +82,11 @@ class SectionTestimonial extends HTMLElement {
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 text-center">
-						<a href="#" class="btn btn-need-help px-4 mt-5 mx-1">
+					<div class="col-12 mt-4 text-center">
+						<a href="#" class="btn btn-need-help px-4 mt-3 mt-sm-0 mx-1">
 							I Need Help
 						</a>
-						<a href="#popular" class="btn btn-get-started px-4 mt-5 mx-1">
+						<a href="#popular" class="btn btn-get-started px-4 mt-3 mt-sm-0 mx-1">
 							Get Started
 						</a>
 					</div>

@@ -25,7 +25,7 @@ class AppBar extends HTMLElement {
 							<a href="home.html" class="nav-link active">Home</a>
 						</li>
 						<li class="nav-item mx-md-2">
-							<a href="#popular" class="nav-link">Paket Travel</a>
+							<a href="#popular" class="nav-link">Travel Package</a>
 						</li>
 						<li class="nav-item mx-md-2 dropdown">
 							<a
@@ -52,12 +52,12 @@ class AppBar extends HTMLElement {
 					</ul>
 
 					<!-- Mobile Button -->
-					<form class="form-inline d-sm-block d-md-none">
+					<form action="login.html" class="form-inline d-sm-block d-md-none">
 						<button class="btn btn-login my-2 my-sm-0">Login</button>
 					</form>
 
 					<!-- Desktop Button -->
-					<form class="form-inline my-2 my-lg-0 d-none d-md-block">
+					<form action="login.html" class="form-inline my-2 my-lg-0 d-none d-md-block">
 						<button class="btn btn-login btn-navbar-end my-2 my-sm-0 px-4">
 							Login
 						</button>

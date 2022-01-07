@@ -36,7 +36,7 @@ class DetailsContent extends HTMLElement {
 					</a>
 				</div>
 			</div>
-			<h2>Tentang Wisata</h2>
+			<h2>About Travel</h2>
 			<p>
 				Nusa Penida is an island southeast of Indonesia's island Bali
 				and a district of Klungkung Regency that includes the
@@ -68,7 +68,7 @@ class DetailsContent extends HTMLElement {
 				<div class="col-4 col-md-4 border-start">
 					<img src="../public/icons/ic_food.png" class="features-image" />
 					<div class="description">
-						<h3>Foods</h3>
+						<h3>Local Foods</h3>
 						<p>Local Foods</p>
 					</div>
 				</div>

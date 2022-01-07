@@ -1,0 +1,88 @@
+.page-login {
+  height: 100vh;
+
+  h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: map-get($font-playfair, bold);
+  }
+
+  form {
+    margin-top: 40px;
+
+    .form-label,
+    .form-check-label {
+      font-size: 18px;
+    }
+
+    .form-check {
+      margin-bottom: 40px;
+    }
+
+    p {
+      a {
+        color: $gray-350;
+      }
+    }
+  }
+
+  .section-right {
+    .card {
+      .card-body {
+        padding: 40px 24px;
+
+        .navbar-brand {
+          margin: 0;
+          color: $blue-500;
+        }
+      }
+    }
+  }
+}
+
+.grid-images {
+  display: grid;
+  width: 80%;
+  grid-template-areas:
+    'picture-1 picture-2'
+    'picture-1 picture-4'
+    'picture-1 picture-4'
+    'picture-3 picture-4';
+  gap: 16px;
+
+  .item {
+    width: 100%;
+    display: flex;
+  }
+
+  .picture-1 {
+    grid-area: picture-1;
+  }
+
+  .picture-2 {
+    grid-area: picture-2;
+  }
+
+  .picture-3 {
+    grid-area: picture-3;
+  }
+
+  .picture-4 {
+    grid-area: picture-4;
+  }
+
+  .picture-1,
+  .picture-2,
+  .picture-3,
+  .picture-4 {
+    overflow: hidden;
+
+    img {
+      transition: all 0.3s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
+}
